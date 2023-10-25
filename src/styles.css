@@ -284,14 +284,10 @@ body #cdawrap {
 	font-size: clamp(1.5rem, 15vw, 6.5rem);
 }
 
-@media screen and (min-width: 53em) {
+@media (max-width: 768px) {
 	.content__title {
-		font-size: clamp(1.5rem, 15vw, 10rem);
+		font-size: 3rem;
 	}
-}
-
-.content__title--top {
-	align-items: start;
 }
 
 .content__title--bottom {

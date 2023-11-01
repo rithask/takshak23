@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./contactus.module.css";
+import styles from "./Footer.module.css";
 
 function Logo() {
 	return (
@@ -74,7 +74,7 @@ function QuickLinks() {
 	);
 }
 
-export default function ContactUs() {
+export default function Footer() {
 	return (
 		<footer>
 			<div className={styles.footer_container}>

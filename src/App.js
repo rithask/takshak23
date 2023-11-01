@@ -1,13 +1,20 @@
 import React, { useMemo, useRef } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
-import NavigationBar from "./Components/NavigationBar";
+import Layout from "./Components/Layout";
 import Hero from "./Pages/Hero";
+import Proshows from "./Pages/Proshows";
+import About from "./Pages/About";
+import Events from "./Pages/Events";
 
 export default function App() {
 	return (
 		<>
-			<NavigationBar />
-			<Hero />
+			<Layout>
+				<Hero />
+				<About />
+				<Events />
+				<Proshows />
+			</Layout>
 		</>
 	);
 }

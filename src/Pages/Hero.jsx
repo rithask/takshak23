@@ -75,7 +75,7 @@ function Text() {
 				transform: "translate(-50%, -50%)",
 			}}
 		>
-			<div className="logo-text">TAKSHAK23</div>
+			<div className="logo-text"><a rel="ar" href='/takshak-logo.usdz'>TAKSHAK23</a></div>
 		</div>
 	);
 }

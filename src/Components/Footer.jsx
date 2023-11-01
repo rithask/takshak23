@@ -55,19 +55,19 @@ function QuickLinks() {
 					<a href="/">Home</a>
 				</li>
 				<li>
-					<a href="#about-container">About</a>
+					<a href="#about">About</a>
 				</li>
 				<li>
-					<a href="#proshows-container">Proshows</a>
+					<a href="#proshows">Proshows</a>
 				</li>
 				<li>
-					<a href="#event-container">Events</a>
+					<a href="#events">Events</a>
 				</li>
 				<li>
-					<a href="https://www.takshak.in/sponsors">Sponsors</a>
+					<a href="#sponsors">Sponsors</a>
 				</li>
 				<li>
-					<a href="#team-container">Team</a>
+					<a href="#team">Team</a>
 				</li>
 			</ul>
 		</div>

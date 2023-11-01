@@ -73,7 +73,7 @@ function Deck() {
 
 export default function Proshows() {
 	return (
-		<div className={styles.container}>
+		<div id="proshows" className={styles.container}>
 			<div className={styles.marquee}>
 				<div>
 					<span>

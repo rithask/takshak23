@@ -3,7 +3,7 @@ import React from "react";
 function About() {
 	return (
 		<>
-		<section className="content">
+		<section id="about" className="content">
 			<div className="grid grid--1">
 				<div className="grid-wrap">
 					<div className="grid__item">

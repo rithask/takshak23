@@ -9,73 +9,73 @@ function About() {
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/1.jpg)"}}
+							style={{backgroundImage: "url(images/1.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/2.jpg)"}}
+							style={{backgroundImage: "url(images/2.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/3.jpg)"}}
+							style={{backgroundImage: "url(images/3.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/4.jpg)"}}
+							style={{backgroundImage: "url(images/4.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/5.jpg)"}}
+							style={{backgroundImage: "url(images/5.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/6.jpg)"}}
+							style={{backgroundImage: "url(images/6.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/7.jpg)"}}
+							style={{backgroundImage: "url(images/7.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/8.jpg)"}}
+							style={{backgroundImage: "url(images/8.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/9.jpg)"}}
+							style={{backgroundImage: "url(images/9.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/10.jpg)"}}
+							style={{backgroundImage: "url(images/10.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/11.jpg)"}}
+							style={{backgroundImage: "url(images/11.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">
 						<div
 							className="grid__item-inner"
-							style={{backgroundImage: "url(images/12.jpg)"}}
+							style={{backgroundImage: "url(images/12.webp)"}}
 						></div>
 					</div>
 					<div className="grid__item">

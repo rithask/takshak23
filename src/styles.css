@@ -431,3 +431,16 @@ body #cdawrap {
 	left: 70px;
 	top: 70px;
 }
+
+.theme-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.theme-title {
+	font-size: 3rem;
+	font-weight: 700;
+	color: white;
+}

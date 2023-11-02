@@ -73,9 +73,10 @@ function Text() {
 				top: "50%",
 				left: "50%",
 				transform: "translate(-50%, -50%)",
+				textDecoration: "none",
 			}}
 		>
-			<div className="logo-text"><a rel="ar" href='/takshak-logo.usdz'>TAKSHAK23</a></div>
+			<div className="logo-text"><a style={{ textDecoration: "none", color: "white" }}  rel="ar" href='/takshak-logo.usdz'>TAKSHAK23</a></div>
 		</div>
 	);
 }

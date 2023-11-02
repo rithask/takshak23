@@ -5,6 +5,7 @@ import Hero from "./Pages/Hero";
 import Proshows from "./Pages/Proshows";
 import About from "./Pages/About";
 import Events from "./Pages/Events";
+import Theme from "./Pages/Theme";
 
 export default function App() {
 	return (
@@ -12,6 +13,7 @@ export default function App() {
 			<Layout>
 				<Hero />
 				<About />
+				<Theme />
 				<Events />
 				<Proshows />
 			</Layout>

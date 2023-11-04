@@ -432,15 +432,59 @@ body #cdawrap {
 	top: 70px;
 }
 
+@font-face {
+	font-family: "Namu";
+	src: url(./fonts/NAMU-1910.woff) format("woff");
+}
+
 .theme-container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	font-family: "Namu", sans-serif;
+	overflow: hidden;
 }
 
 .theme-title {
-	font-size: 3rem;
+	font-size: 5rem;
 	font-weight: 700;
 	color: white;
+	overflow: hidden;
+}
+
+.theme-description-container {
+	background-image: url("blurry_background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10rem;
+	border-radius: 1rem;
+	margin: 5rem;
+}
+
+.theme-description {
+	font-size: 3rem;
+	font-weight: 400;
+	color: white;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+	.theme-title {
+		font-size: 2rem;
+	}
+
+	.theme-description-container {
+		padding: 2rem;
+		margin: 2rem;
+	}
+
+	.theme-description {
+		font-size: 1.5rem;
+		margin: 2rem;
+		padding: 2rem;
+		margin: 2rem;
+	}
 }

@@ -4,7 +4,7 @@ import { useDrag } from "react-use-gesture";
 
 import styles from "./proshows.module.css";
 
-const cards = ["/images/soorajsanthosh.jpg"];
+const cards = ["/images/soorajsanthosh.png"];
 
 const to = (i) => ({
 	x: 0,

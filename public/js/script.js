@@ -73,7 +73,6 @@ window.addEventListener("load", () => {
 	const logo = document.querySelector(".theme-title");
 	const letters = logo.textContent.split("");
 	logo.textContent = "";
-	console.log(letters);
 	letters.forEach((letter) => {
 		if (letter === " ") {
 			letter = "&nbsp;";

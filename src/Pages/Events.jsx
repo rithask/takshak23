@@ -5,6 +5,7 @@ import event3 from '../Images/iedc.webp';
 
 const Events = () => {
 	  return (
+		<>
 		<div id="events" className="cards">
 			<div className="card card-1">
 				<img src={event1} alt="car" />
@@ -25,7 +26,9 @@ const Events = () => {
 				</div>
 			</div>
 		</div>
-	  );
+		<div className="blackscreen"></div>
+		</>
+	);
 }
 
 export default Events;

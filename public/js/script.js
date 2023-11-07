@@ -147,4 +147,22 @@ window.addEventListener("load", () => {
 			},
 		}
 	);
+
+	gsap.fromTo(
+		".artist_image",
+		{
+			opacity: 0,
+			y: 50,
+		},
+		{
+			opacity: 1,
+			y: 0,
+			ease: "power1.out",
+			scrollTrigger: {
+				trigger: ".artist_image",
+				start: "50% bottom",
+				end: "center center",
+			},
+		}
+	);
 });

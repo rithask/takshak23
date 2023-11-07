@@ -8,9 +8,9 @@ const Events = () => {
 		<>
 		<div id="events" className="cards">
 			<div className="card card-1">
-				<img src={event1} alt="car" />
+				<img src={event3} alt="Flea Market" />
 				<div className="card-content">
-					<h2>TELEI</h2>
+					<h2>Flea Market</h2>
 				</div>
 			</div>
 			<div className="card card-2">
@@ -20,9 +20,9 @@ const Events = () => {
 				</div>
 			</div>
 			<div className="card card-3">		
-				<img src={event3} alt="iedc" />
+				<img src={event1} alt="TELEI" />
 				<div className="card-content">
-					<h2>Flea Market</h2>
+					<h2>TELEI</h2>
 				</div>
 			</div>
 		</div>

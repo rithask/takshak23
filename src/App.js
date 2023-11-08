@@ -12,9 +12,9 @@ export default function App() {
 		<>
 			<Layout>
 				<Hero />
-				<About />
+				{/* <About /> */}
 				<Theme />
-				{/* <Events /> */}
+				<Events />
 				<Proshows />
 			</Layout>
 		</>

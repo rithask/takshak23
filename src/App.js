@@ -14,7 +14,7 @@ export default function App() {
 				<Hero />
 				<About />
 				<Theme />
-				<Events />
+				{/* <Events /> */}
 				<Proshows />
 			</Layout>
 		</>

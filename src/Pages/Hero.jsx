@@ -76,7 +76,7 @@ function Text() {
 				textDecoration: "none",
 			}}
 		>
-			<div className="logo-text"><a style={{ textDecoration: "none", color: "white" }}  rel="ar" href='/takshak-logo.usdz'>TAKSHAK23</a></div>
+			<div className="logo-text"><a style={{ textDecoration: "none", color: "white" }}  rel="ar" href='/takshak-logo.usdz' data-umami-event="{ar}">TAKSHAK23</a></div>
 		</div>
 	);
 }

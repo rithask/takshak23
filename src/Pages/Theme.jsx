@@ -4,7 +4,7 @@ const Theme = () => {
 	  return (
 		<div className="theme-container" id='theme'>
 			<div className="theme-title">
-				Cosmos Of Creations
+				Cosmos Of Creation
 			</div>
 			<div className='theme-description-container'>
 				<div className='theme-description'>

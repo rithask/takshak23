@@ -5,7 +5,7 @@ function NavigationBar() {
 		<div className="nav">
 			<div className="nav-items">
 				<div className="logo-container">
-					<img id="logo" src="/logo-leaf.png" alt="takshak logo" />
+					<img id="logo" src="/logo-leaf.webp" alt="takshak logo" />
 				</div>
 			</div>
 		</div>

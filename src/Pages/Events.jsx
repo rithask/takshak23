@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cons from '../Images/cons.webp';
 import debate from '../Images/debate.webp';
 import tugOfWar from '../Images/robo_tug_of_war.webp';
@@ -10,20 +10,10 @@ const Events = () => {
 	{ name: '', imageUrl: tugOfWar, num: '03' },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex === cities.length - 1 ? 0 : prevIndex + 1));
-  };
-
-  const handlePrev = () => {
-    setActiveIndex((prevIndex) => (prevIndex === 0 ? cities.length - 1 : prevIndex - 1));
-  };
-
   return (
     <div className="carousel">
       {cities.map((city, index) => (
-        <div key={index} className={`carousel-item ${index === activeIndex ? 'active' : ''}`}>
+        <div key={index} className="carousel-item">
           <div className="carousel-box">
             <div className="title">{city.name}</div>
             <div className="num">{city.num}</div>
@@ -33,8 +23,6 @@ const Events = () => {
       ))}
       <div className="cursor"></div>
       <div className="cursor cursor2"></div>
-      <button onClick={handlePrev}>Previous</button>
-      <button onClick={handleNext}>Next</button>
     </div>
   );
 };

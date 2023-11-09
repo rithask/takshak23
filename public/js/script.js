@@ -89,8 +89,8 @@ window.addEventListener("load", () => {
 	};
 
 	/*--------------------
-Listeners
---------------------*/
+	Listeners
+	--------------------*/
 	document.addEventListener("mousewheel", handleWheel);
 	document.addEventListener("mousedown", handleMouseDown);
 	document.addEventListener("mousemove", handleMouseMove);

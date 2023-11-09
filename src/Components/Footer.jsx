@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 function Logo() {
 	return (
 		<div className={styles.logo}>
-			<img src="/logo-leaf.png" alt="Takshak Logo" />
+			<img src="/logo.webp" alt="Takshak Logo" />
 		</div>
 	);
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import cinescope from '../Images/cinescope.webp';
 import codecrusade from '../Images/codecrusade.webp';
+import codersshowdown from '../Images/codershowdown.webp';
 import cons from '../Images/cons.webp';
 import debate from '../Images/debate.webp';
 import designathon from '../Images/designathon.webp';
@@ -24,6 +25,7 @@ const Events = () => {
 	{ name: '', imageUrl: untangle, num: '09' },
 	{ name: '', imageUrl: weaponexpo, num: '10' },
 	{ name: '', imageUrl: cinescope, num: '11' },
+	{ name: '', imageUrl: codersshowdown, num: '12' },
   ];
 
   return (

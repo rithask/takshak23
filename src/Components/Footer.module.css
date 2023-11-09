@@ -4,7 +4,7 @@ footer {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	font-size: 14px;
-	background-color: #f4f4f4;
+	background-color: #121214;
 	align-items: start;
 }
 

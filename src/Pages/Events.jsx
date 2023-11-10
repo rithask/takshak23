@@ -11,6 +11,7 @@ import techbiz from '../Images/techbiz.webp';
 import techquest from '../Images/techquest.webp';
 import untangle from '../Images/untangle.webp';
 import weaponexpo from '../Images/weaponexpo.webp';
+import bmx from '../Images/bmx.webp'
 
 const Events = () => {
   const cities = [
@@ -26,6 +27,7 @@ const Events = () => {
 	{ name: '', imageUrl: weaponexpo, num: '10' },
 	{ name: '', imageUrl: cinescope, num: '11' },
 	{ name: '', imageUrl: codersshowdown, num: '12' },
+	{ name: '', imageUrl: bmx, num: '13' },
   ];
 
   return (
